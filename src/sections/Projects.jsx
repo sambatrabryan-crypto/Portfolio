@@ -40,10 +40,7 @@ function Lightbox({ images, currentIndex, setCurrentIndex, onClose }) {
         </svg>
       </button>
 
-      {/* Compteur */}
-      <div className="absolute left-5 top-5 z-10 rounded-full bg-white/10 px-4 py-2 text-sm font-medium text-white">
-        {currentIndex + 1} / {images.length}
-      </div>
+      {/* ❌ Compteur "1 / 7" — SUPPRIMÉ */}
 
       {/* Flèche gauche */}
       {images.length > 1 && (
@@ -188,7 +185,7 @@ function ProjectGallery({ images, onImageClick }) {
         </div>
       )}
 
-      {/* Texte "Cliquez pour agrandir" (bas, apparaît au hover) */}
+      {/* Texte "Agrandir" au hover */}
       <div className="pointer-events-none absolute bottom-3 right-3 flex items-center gap-1.5 rounded-full bg-black/60 px-3 py-1.5 text-xs font-medium text-white opacity-0 backdrop-blur-sm transition-opacity duration-300 group-hover:opacity-100">
         <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
           <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6" />
