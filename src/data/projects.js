@@ -44,7 +44,7 @@ const projects = [
       "Implémentation de l'algorithme de Ford-Bellman pour le calcul du plus court chemin dans un graphe pondéré.",
     technologies: ['TypeScript', 'JavaScript'],
     images: [
-      { src: '/Bell-Man/RO-Max.png', alt: 'Plus court chemin maximal' },
+      { src: '/Bell-Man/RO-Max.png', alt: 'Plus long chemin maximal' },
       { src: '/Bell-Man/RO-Min.png', alt: 'Plus court chemin minimal' },
       { src: '/Bell-Man/RO-Cal.png', alt: 'Calcul' },
     ],
