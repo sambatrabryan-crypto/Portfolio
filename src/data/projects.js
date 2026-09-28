@@ -15,7 +15,7 @@ const projects = [
       'ELK Stack',
     ],
     images: [
-      { src: '/Visiteurs/Tableaux de bord.png', alt: 'Tableau de bord principal' },
+      { src: '/Visiteurs/Tableaux%20de%20bord.png', alt: 'Tableau de bord principal' },
       { src: '/Visiteurs/Ciblage.png', alt: 'Ciblage des départements' },
       { src: '/Visiteurs/Connexion.png', alt: 'Connexion web' },
       { src: '/Visiteurs/Connexion-mob.png', alt: 'Connexion et inscription mobile' },
@@ -31,7 +31,7 @@ const projects = [
       "Application de gestion des visites dans un centre médical. Hibernate pour la persistance, PostgreSQL comme base de données, architecture MVC.",
     technologies: ['Java', 'Hibernate', 'PostgreSQL'],
     images: [
-      { src: '/Médecin/Accueil.png', alt: 'Accueil' },
+      { src: '/Médecin/Acceuil.png', alt: 'Accueil' },
       { src: '/Médecin/Médecin.png', alt: 'Gestion des médecins' },
       { src: '/Médecin/Patient.png', alt: 'Gestion des patients' },
       { src: '/Médecin/Visite.png', alt: 'Gestion des visites' },
