@@ -10,7 +10,7 @@ function Hero() {
       <div className="relative z-10 mx-auto w-full max-w-6xl">
         <div className="max-w-4xl">
           <p className="mb-5 text-sm font-medium uppercase tracking-[0.3em] text-cyan-400">
-            Développeur informatique
+            Développeur Full-Stack
           </p>
 
           <h1 className="text-5xl font-bold leading-tight tracking-tight text-white sm:text-6xl md:text-7xl">
