@@ -3,7 +3,7 @@ const projects = [
     title: 'Gestion des visiteurs',
     category: 'Web & Mobile · Projet de stage',
     description:
-      "Système complet de gestion des visiteurs développé chez Europ'Alu Antananarivo. Application web et mobile permettant l'enregistrement, le suivi et l'analyse des visites et rendez-vous. Inclut la gestion des départements, les notifications en temps réel, les rapports détaillés et un système d'authentification sécurisé.",
+      "Système complet de gestion des visiteurs développé chez Europ'Alu Antananarivo. Application web et mobile permettant l'enregistrement, le suivi et l'analyse des visites et rendez-vous.",
     technologies: [
       'React',
       'Node.js',
@@ -30,11 +30,12 @@ const projects = [
     description:
       "Application de gestion des visites dans un centre médical. Hibernate pour la persistance, PostgreSQL comme base de données, architecture MVC.",
     technologies: ['Java', 'Hibernate', 'PostgreSQL'],
+    // ⚠️ "Médecin" → encodé en "M%C3%A9decin" pour les URLs
     images: [
-      { src: '/Médecin/Acceuil.png', alt: 'Accueil' },
-      { src: '/Médecin/Médecin.png', alt: 'Gestion des médecins' },
-      { src: '/Médecin/Patient.png', alt: 'Gestion des patients' },
-      { src: '/Médecin/Visite.png', alt: 'Gestion des visites' },
+      { src: '/M%C3%A9decin/Acceuil.png', alt: 'Accueil' },
+      { src: '/M%C3%A9decin/M%C3%A9decin.png', alt: 'Gestion des médecins' },
+      { src: '/M%C3%A9decin/Patient.png', alt: 'Gestion des patients' },
+      { src: '/M%C3%A9decin/Visite.png', alt: 'Gestion des visites' },
     ],
   },
   {
