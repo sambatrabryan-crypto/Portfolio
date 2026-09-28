@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 import ErrorBoundary from './components/ErrorBoundary'
 import Navbar from './components/Navbar'
 import Hero from './sections/Hero'
@@ -41,14 +42,14 @@ function App() {
   return (
     <ErrorBoundary>
       <div className="min-h-screen bg-black text-white">
-        <Navbar
-          currentPage={page}
-          onNavigate={setPage}
-        />
+        <Navbar currentPage={page} onNavigate={setPage} />
 
         <main>
           {renderPage()}
         </main>
+
+        {/* 📊 Vercel Analytics */}
+        <Analytics />
       </div>
     </ErrorBoundary>
   )
