@@ -43,7 +43,7 @@ function Navbar({ currentPage, onNavigate }) {
           className="group relative text-base font-bold tracking-tight text-white sm:text-lg"
         >
           <span className="relative z-10">
-            RAKOTOARIVELO Fiaianan-tsambatra Bryann
+            RAKOTOARIVELO Fiainan-tsambatra Bryann
             <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
               .
             </span>

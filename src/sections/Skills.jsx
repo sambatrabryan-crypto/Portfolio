@@ -1,27 +1,39 @@
 const skillGroups = [
   {
     title: 'Frontend',
-    skills: ['React', 'Vue.js', 'JavaScript', 'HTML', 'CSS', 'Tailwind CSS'],
+    skills: ['React', 'JavaScript', 'HTML', 'CSS', 'Tailwind CSS'],
   },
   {
     title: 'Backend',
-    skills: ['Node.js', 'Express.js', 'Python', 'FastAPI'],
+    skills: ['Node.js', 'Express.js', 'PHP', 'Python'],
   },
   {
     title: 'Mobile',
-    skills: ['Flutter', 'Dart'],
+    skills: ['Flutter', 'Dart', 'Java'],
   },
   {
-    title: 'Database',
-    skills: ['PostgreSQL', 'SQL', 'Sequelize', 'SQLAlchemy'],
+    title: 'Bases de données',
+    skills: ['MySQL', 'PostgreSQL', 'Firebase', 'SQL'],
+  },
+  {
+    title: 'Conception & Modélisation',
+    skills: ['Merise', 'MCD / MLD / MPD', 'UML'],
   },
   {
     title: 'DevOps & Tools',
-    skills: ['Git', 'Docker', 'Jenkins', 'SonarQube', 'Nexus'],
+    skills: ['Git', 'Docker', 'Jenkins', 'SonarQube', 'Nexus', 'CI/CD'],
+  },
+  {
+    title: 'Observabilité',
+    skills: ['ELK Stack', 'Elasticsearch', 'Logstash', 'Kibana'],
+  },
+  {
+    title: 'Systèmes',
+    skills: ['Windows', 'Linux'],
   },
   {
     title: 'IA & Data',
-    skills: ['Intelligence artificielle', 'RAG', 'Power BI'],
+    skills: ['Intelligence artificielle'],
   },
 ]
 
@@ -35,7 +47,7 @@ function Skills() {
             Compétences
           </p>
 
-          <h2 className="mt-3 text-4xl font-bold sm:text-5xl">
+          <h2 className="mt-3 text-4xl font-bold text-white sm:text-5xl">
             Technologies que j'utilise.
           </h2>
 
