@@ -25,11 +25,26 @@ const projects = {
         "Application web de gestion des stocks créée pour le Ministère de l'Enseignement Supérieur et de la Recherche Scientifique.",
       technologies: ['PHP', 'MySQL', 'HTML', 'CSS'],
       images: [
-        { src: '/Stock/Accueil.png', alt: "Page d'accueil" },
+        // ⚠️ Garde le nom exact de ton fichier (Acceuil ou Accueil)
+        { src: '/Stock/Acceuil.png', alt: "Page d'accueil" },
         { src: '/Stock/Inventaire.png', alt: "Gestion de l'inventaire" },
         { src: '/Stock/Fournisseur.png', alt: 'Gestion des fournisseurs' },
         { src: '/Stock/Personnel.png', alt: 'Gestion du personnel' },
         { src: '/Stock/PDF.png', alt: 'Génération de rapports PDF' },
+      ],
+    },
+    {
+      slug: 'gestion-materiels',
+      title: 'Gestion de matériels',
+      category: 'Mobile · Projet personnel',
+      description:
+        "Application mobile de gestion de matériels permettant de suivre les stocks, d'ajouter de nouveaux équipements et de consulter des statistiques en temps réel.",
+      technologies: ['Java', 'Firebase'],
+      images: [
+        { src: '/Materiels/acceuil.jpeg', alt: "Page d'accueil" },
+        { src: '/Materiels/ajout.jpeg', alt: "Ajout d'un matériel" },
+        { src: '/Materiels/stock.jpeg', alt: 'Gestion du stock' },
+        { src: '/Materiels/statistique.jpeg', alt: 'Statistiques' },
       ],
     },
     {
@@ -87,12 +102,27 @@ const projects = {
         'Web application for stock management built for the Ministry of Higher Education and Scientific Research.',
       technologies: ['PHP', 'MySQL', 'HTML', 'CSS'],
       images: [
+        // ⚠️ Même nom exact que côté FR
         { src: '/Stock/Acceuil.png', alt: 'Home page' },
         { src: '/Stock/Inventaire.png', alt: 'Inventory management' },
         { src: '/Stock/Fournisseur.png', alt: 'Supplier management' },
         { src: '/Stock/Personnel.png', alt: 'Staff management' },
         { src: '/Stock/PDF.png', alt: 'PDF report generation' },
       ],
+    },
+    {
+      slug: 'equipment-management',
+      title: 'Equipment Management',
+      category: 'Mobile · Personal project',
+      description:
+        'Mobile application for equipment management, allowing users to track inventory, add new items, and view real-time statistics.',
+      technologies: ['Java', 'Firebase'],
+      images: [
+                { src: '/Materiels/acceuil.jpeg', alt: 'Home screen' },
+                { src: '/Materiels/ajout.jpeg', alt: 'Adding new equipment' },
+                { src: '/Materiels/stock.jpeg', alt: 'Stock management' },
+                { src: '/Materiels/statistique.jpeg', alt: 'Statistics dashboard' },
+              ],
     },
     {
       slug: 'medical-visits',
